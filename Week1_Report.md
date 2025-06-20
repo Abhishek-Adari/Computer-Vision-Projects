@@ -175,19 +175,10 @@ We can “raise an error” using raise
 An example of Raise.
 ![alt text][def9]
 
+#UNDERSTANDING AND IMPLEMENTING PYTHON LIBRARIES FOR DATA ANALYSIS:
+![alt text][def12]
+![alt text][def13]
 
-
-
-
-[def2]: image-2.png
-[def3]: image-3.png
-[def4]: image-7.png
-
-[def5]: image-5.png
-[def6]: image-4.png
-[def7]: image-6.png
-[def8]: image-8.png
-[def9]: image-9.png
 
 #REPORT:
 This week’s training gave me a solid foundation in Linux, Python, and Git — three essential tools for any developer or data engineer. I started by learning how to navigate the Ubuntu terminal, use commands like ls, cd, and chmod, and create and manage files through the command line. Understanding file permissions, especially using chmod 600, was initially confusing, but became clear after practicing different combinations and seeing their effects on access rights.
@@ -205,11 +196,27 @@ Understanding the command prompt from scratch
 Coming into this training, I had zero background in using the terminal or command line. It felt completely foreign at first, and I ended up spending my entire weekend just getting comfortable with basic commands. Eventually, through repetition and trial-and-error, it started to make sense.
 
 Learning Python from the ground up
-I had minimal prior exposure to Python, so I had to start from the basics — variables, syntax, and control structures — and then quickly move into applying libraries like csv and random. It was challenging but also rewarding to go from knowing almost nothing to building functional scripts in just a few days.
+I had minimal prior exposure to Python, so I had to start from the basics — variables, syntax, and control structures — and then quickly move into applying libraries like csv and random. It was challenging but also rewarding to go from knowing almost nothing to building functional scripts in just a few days. Then worked on pandas library for a data frame and use matplotlib to plot a scatterplot. Also found the correlation through pandas.
+![alt text][def10]
+![alt text][def11]
 
 Visualizing GitHub and how version control works
 Git and GitHub were hard to grasp conceptually at first — the idea of staging, committing, branching, and merging felt abstract. What really helped was experimenting hands-on and also using ChatGPT to explain the ideas in simpler terms and walk me through the steps.
 
-#THE PYTHON FILE IS IN THE REPO IN GITHUB under Hello.py
+#THE PYTHON FILES IS IN THE REPO IN GITHUB under Hello.py and tr.py
 
 
+
+[def2]: image-2.png
+[def3]: image-3.png
+[def4]: image-7.png
+
+[def5]: image-5.png
+[def6]: image-4.png
+[def7]: image-6.png
+[def8]: image-8.png
+[def9]: image-9.png
+[def10]: image-10.png
+[def11]: image-11.png
+[def12]: image-12.png
+[def13]: image-13.png
