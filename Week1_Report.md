@@ -1,8 +1,7 @@
 #BASH COMMANDS LEARNED AND PRACTICED
 
-Bash and command line
 
-file system:
+Understanding file system:
 the file system organises computer files and directories into a tree structure.
 
 TRAVERSING THROUGH DIRECTORIES
@@ -203,7 +202,7 @@ I had minimal prior exposure to Python, so I had to start from the basics — va
 Visualizing GitHub and how version control works
 Git and GitHub were hard to grasp conceptually at first — the idea of staging, committing, branching, and merging felt abstract. What really helped was experimenting hands-on and also using ChatGPT to explain the ideas in simpler terms and walk me through the steps.
 
-#THE PYTHON FILES IS IN THE REPO IN GITHUB under Hello.py and tr.py
+#THE PYTHON FILES IS IN THE REPO IN GITHUB under Hello.py and tr.py as extensions
 
 
 
