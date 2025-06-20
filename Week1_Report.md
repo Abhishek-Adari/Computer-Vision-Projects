@@ -122,7 +122,7 @@ DIFF:
 we can check the differences between the working directory and the staging area with:{git diff filename}
 
 COMMIT: A commit permanently stores changes from the staging area inside the repository.
-![alt text](image-6.png)
+![alt text][def7]
 LOG: commits stored in the repository can be viewed with {git log}
 
 HEAD: most recent commits 
@@ -130,11 +130,11 @@ HEAD: most recent commits
 Checkout HEAD: gets the most recent workspace.
 
 git reset HEAD filename: removes the file from the working area.
-![alt text](image-5.png)
+![alt text][def5]
 
 
 INTRO TO GITHUB:
-![alt text](image-4.png)
+![alt text][def6]
 
 branches isolate each teammate’s work in order to avoid conflicts in each others works.
 
@@ -178,4 +178,11 @@ I had minimal prior exposure to Python, so I had to start from the basics — va
 Visualizing GitHub and how version control works
 Git and GitHub were hard to grasp conceptually at first — the idea of staging, committing, branching, and merging felt abstract. What really helped was experimenting hands-on and also using ChatGPT to explain the ideas in simpler terms and walk me through the steps.
 
+#THE PYTHON FILE IS IN THE REPO IN GITHUB
 
+
+
+
+[def5]: image-5.png
+[def6]: image-4.png
+[def7]: image-6.png
