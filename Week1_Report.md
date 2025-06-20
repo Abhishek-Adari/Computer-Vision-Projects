@@ -1,9 +1,9 @@
 #BASH COMMANDS LEARNED AND PRACTICED
 
-Bash and command line(FINISH)
+Bash and command line
 
 file system:
-the file system organises computer files and dictoionaries into a tree structure.
+the file system organises computer files and directories into a tree structure.
 
 TRAVERSING THROUGH DIRECTORIES
     Command ls:
@@ -56,7 +56,7 @@ ACCESSING FILES:
 
 		*(wildcard): used to copy all the files in that directory and can move it to a different directory(can use absolute path if you are getting too confused)
 
-	Command mv: can ne used to move and rename files.
+	Command mv: can be used to move and rename files.
 
 	Command rm: removes files and directories
 
@@ -104,7 +104,7 @@ Git Workflow:
 Git project can be thought of as having three parts:
 	1.A working Directory - creating, editing , deleting and organizing files
 	2.A staging area - where you will list changes you make to the working directory
-	3.A repositorty - Stores changes permanently
+	3.A repository - Stores changes permanently
 ![alt text][def4]
 
 
@@ -153,9 +153,41 @@ NOTE: the * lets you know which branch you are on
 GENERAL PROCESS for pushing code:
 ![alt text][def2]
 
+#Exception Handling
+Exception handling:
+	three types of errors:
+		compile error(syntax error)
+		runtime error(eg: divided by zero)—>most difficult error to fix
+		logical error(wrong code)
+		
+we can create an exception for the errors using “try” and except.
+
+Note: The code exists the try block once it finds an error.
+
+to understand the exact error that occurs, use: (in the except block btw): except Exception as e: and then print(e).
+print specific exception blocks in the first and the generic one in the last.
+
+![alt text][def8]
+Raising error:
+
+We can “raise an error” using raise
+
+An example of Raise.
+![alt text][def9]
+
+
+
+
+
 [def2]: image-2.png
 [def3]: image-3.png
 [def4]: image-7.png
+
+[def5]: image-5.png
+[def6]: image-4.png
+[def7]: image-6.png
+[def8]: image-8.png
+[def9]: image-9.png
 
 #REPORT:
 This week’s training gave me a solid foundation in Linux, Python, and Git — three essential tools for any developer or data engineer. I started by learning how to navigate the Ubuntu terminal, use commands like ls, cd, and chmod, and create and manage files through the command line. Understanding file permissions, especially using chmod 600, was initially confusing, but became clear after practicing different combinations and seeing their effects on access rights.
@@ -178,11 +210,6 @@ I had minimal prior exposure to Python, so I had to start from the basics — va
 Visualizing GitHub and how version control works
 Git and GitHub were hard to grasp conceptually at first — the idea of staging, committing, branching, and merging felt abstract. What really helped was experimenting hands-on and also using ChatGPT to explain the ideas in simpler terms and walk me through the steps.
 
-#THE PYTHON FILE IS IN THE REPO IN GITHUB
+#THE PYTHON FILE IS IN THE REPO IN GITHUB under Hello.py
 
 
-
-
-[def5]: image-5.png
-[def6]: image-4.png
-[def7]: image-6.png
