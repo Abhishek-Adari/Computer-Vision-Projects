@@ -32,8 +32,8 @@ pd.set_option('display.max_rows', None)
 
 df.dropna(subset=['Date'], inplace = True)
 #print(df)
-#df.plot(kind = 'scatter', x = 'Pulse', y = 'Calories')
+df.plot(kind = 'scatter', x = 'Pulse', y = 'Calories')
 
-#plt.show()
+plt.show()
 
-print(df.corr)
+#print(df.corr)
