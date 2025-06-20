@@ -1,4 +1,5 @@
-# Enhanced version snippet
+#understanding csv stuff with exception handling and pushed to github
+
 import os
 def read_csv(file_path):
     if not os.path.exists(file_path):
@@ -17,4 +18,4 @@ try:
             count += 1
         print(f"Total rows: {count}")
 except Exception as e:
-    print("Unexpected error:", e)
+    print("Unexpected errors:", e)
